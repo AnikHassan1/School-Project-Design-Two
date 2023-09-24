@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    max-width: 1440px;
+    padding: 0px 20px;
+}
+:root{
+    --primary:#619741;
+    --secondary:#3233cd;
+    --fs-1:18px;
+    --fs-2:20px;
+}
+.imag{
+
+    width: 100px;
+    height: 100%;
+}
+.title{
+    background-color: var(--primary);
+}
+.bg{
+    background-color: var(--secondary);
+}
+img.d-block {
+    height: 451px;
+    width: 100%;
+}
+.flex{
+    display: flex;
+    
+}
+.img-svg{
+    width: 65px;
+    height: 100%;
+}
